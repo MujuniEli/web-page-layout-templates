@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+        margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/*** nav styles ***/
+.first-nav {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-nav-items1 {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.first-nav-items1 li {
+    margin-right: 1.5rem;
+}
+
+.first-nav-items2 {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.first-nav-items2 li {
+    margin-left: 1.5rem;
+}
