@@ -40,3 +40,21 @@ li {
 .first-nav-items2 li {
     margin-left: 1.5rem;
 }
+
+.logo {
+    width: 7%;
+    height: auto;
+}
+
+.second-nav {
+    width: 90%;
+    display: flex;
+}
+
+.second-nav-items2 {
+    display: flex;
+}
+
+.lists-two {
+    display: flex;
+}
