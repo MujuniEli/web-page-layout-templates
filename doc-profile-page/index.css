@@ -16,9 +16,11 @@ li {
 }
 
 /*** nav styles ***/
-.first-nav {
+.navigation {
     width: 85%;
     margin: 0 auto;
+}
+.first-nav {
     display: flex;
     justify-content: space-between;
 }
@@ -47,7 +49,7 @@ li {
 }
 
 .second-nav {
-    width: 90%;
+
     display: flex;
 }
 
