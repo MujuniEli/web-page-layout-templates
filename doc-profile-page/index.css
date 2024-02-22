@@ -15,6 +15,10 @@ li {
     list-style: none;
 }
 
+.flex {
+    display: flex;
+}
+
 /*** nav styles ***/
 .navigation {
     width: 85%;
