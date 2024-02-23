@@ -64,3 +64,10 @@ li {
 .lists-two {
     display: flex;
 }
+
+.app-store-badges {
+    width: 50%;
+    height: 10%;
+    flex-direction: column;
+}
+
