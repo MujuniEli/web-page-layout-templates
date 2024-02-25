@@ -116,8 +116,8 @@ li {
     padding: .7rem;
 }
 
-.navigation-indicator {
-    
+.navigation-indicator > p {
+    font-size: 13px;
 }
 
 .mid-section-icons {
@@ -146,6 +146,14 @@ li {
 .main-body {
     width: 85%;
     margin: 0 auto ;
+}
+
+.initials > button {
+    height: 45px;
+    color: #27AE60;
+    border: 2px solid #27AE60;
+    border-radius: 10em;
+    padding-inline: 1.5rem;
 }
 
 /** footer styles**/
