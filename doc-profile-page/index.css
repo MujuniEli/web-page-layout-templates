@@ -161,6 +161,18 @@ li {
     padding-inline: 1.5rem;
 }
 
+.map {
+    width: 50%;
+}
+
+.address > button {
+    color: white;
+    background-color: #27AE60;
+    padding: .5rem;
+    border: none;
+    border-radius: 50%;
+}
+
 /** footer styles**/
 
 footer {
@@ -174,8 +186,13 @@ footer {
     padding-block: 2rem;
 }
 
-.ft-logo {
-
+.footer-btns > button {
+    padding: .8rem;
+    margin-left: .8rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10em;
 }
 
 .ft-h1 {
@@ -186,8 +203,15 @@ footer {
     padding-block: 2rem;
 }
 
+
 .social-icon-ft {
+    cursor: pointer;
     margin-right: .7rem;
+    background-color: white;
+    padding: .5rem;
+    border: none;
+   
+    
 }
 
 .app-store-badges {
