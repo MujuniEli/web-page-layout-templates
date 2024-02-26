@@ -144,8 +144,13 @@ li {
 /** main styles **/
 
 .main-body {
-    width: 85%;
-    margin: 0 auto ;
+    
+    
+}
+
+.main-container {
+     width: 85%;
+     margin: 0 auto;
 }
 
 .initials > button {
@@ -157,6 +162,33 @@ li {
 }
 
 /** footer styles**/
+
+footer {
+    color: white;
+    background-color: #333333;
+}
+
+.footer-header {
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-block: 2rem;
+}
+
+.ft-logo {
+
+}
+
+.ft-h1 {
+    margin-left: .4rem;
+}
+
+.footer-social-icons{
+    padding-block: 2rem;
+}
+
+.social-icon-ft {
+    margin-right: .7rem;
+}
 
 .app-store-badges {
     width: 50%;
