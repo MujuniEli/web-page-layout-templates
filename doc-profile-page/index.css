@@ -10,6 +10,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 img,
@@ -75,11 +76,15 @@ li {
 }
 
 .second-nav {
-    background-color: white;
+    
         display: flex;
         justify-content: space-between;
         padding: 1rem;
         box-shadow:  -1px 11px 43px -14px rgba(207,200,200,0.64);
+}
+
+.second-nav-cont {
+    background-color: white;
 }
 
 .second-nav-items2 {
@@ -143,10 +148,6 @@ li {
 
 /** main styles **/
 
-.main-body {
-    
-    
-}
 
 .main-container {
      width: 85%;
@@ -159,6 +160,10 @@ li {
     border: 2px solid #27AE60;
     border-radius: 10em;
     padding-inline: 1.5rem;
+}
+
+.initials > img {
+        height: 200px;
 }
 
 .map {
@@ -210,8 +215,10 @@ footer {
     background-color: white;
     padding: .5rem;
     border: none;
-   
-    
+}
+
+.footer-main {
+    margin-block: 3rem;
 }
 
 .app-store-badges {
