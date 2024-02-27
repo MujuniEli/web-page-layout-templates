@@ -154,7 +154,13 @@ li {
      margin: 0 auto;
 }
 
-.initials > button {
+.search-results {
+    color: #27AE60;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.call-btn {
     height: 45px;
     color: #27AE60;
     border: 2px solid #27AE60;
