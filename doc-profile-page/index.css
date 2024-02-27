@@ -160,6 +160,18 @@ li {
     font-weight: 600;
 }
 
+.main-sections {
+    justify-content: space-between;
+}
+
+.main-section-one {
+    width: 30%;
+}
+
+.main-section-two {
+    width: 60%;
+}
+
 .call-btn {
     height: 45px;
     color: #27AE60;
