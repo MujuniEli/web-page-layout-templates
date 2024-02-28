@@ -226,6 +226,9 @@ footer {
     padding-block: 2rem;
 }
 
+.about, .professionals, .Academics, .patient-resources > p > a {
+    font-size: 14px;
+}
 
 .social-icon-ft {
     cursor: pointer;
@@ -237,12 +240,43 @@ footer {
 
 .footer-main {
     margin-block: 3rem;
+    justify-content: space-between;
 }
 
 .app-store-badges {
     width: 50%;
     height: 10%;
     flex-direction: column;
+}
+
+.download-txt {
+    margin-top: 3rem;
+}
+
+.store-btn {
+    border: none;
+    border-radius: 5px;
+}
+
+.store-btn:nth-child(1) {
+    margin-top: .5rem;
+    margin-bottom: .7rem;
+}
+
+.store-btn:nth-child(2) {
+    width: 120px;
+}
+
+.btn-items {
+    justify-content: space-between;
+}
+
+.foot-logo-txt > p {
+    font-size: 9px;
+}
+
+.big-txt {
+    font-size: 15px;
 }
 
 .ft-store-icon {
