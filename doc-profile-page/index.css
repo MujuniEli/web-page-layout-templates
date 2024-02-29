@@ -148,6 +148,10 @@ li {
 
 /** main styles **/
 
+.main-body {
+    margin-top: 5rem;
+}
+
 
 .main-container {
      width: 85%;
@@ -164,9 +168,12 @@ li {
     justify-content: space-between;
 }
 
-.main-section-one {
+.main-side-nav {
     width: 30%;
+    height: 300px;
+    border: .1px solid grey;
 }
+
 
 .main-section-two {
     width: 60%;
@@ -182,6 +189,10 @@ li {
 
 .initials > img {
         height: 200px;
+}
+
+.about-doc {
+    align-self: flex-start;
 }
 
 .map {
