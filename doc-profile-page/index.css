@@ -214,8 +214,10 @@ footer {
     background-color: #333333;
 }
 
+
 .footer-header {
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 3rem;
     padding-block: 2rem;
 }
