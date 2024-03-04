@@ -174,9 +174,18 @@ li {
     border: .1px solid grey;
 }
 
+.main-side-nav > h4, p, button {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
 
 .main-section-two {
     width: 60%;
+}
+
+.main-section-two >  p, button {
+    margin-top: 0;
 }
 
 .call-btn {
