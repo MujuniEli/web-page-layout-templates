@@ -171,7 +171,9 @@ li {
 .main-side-nav {
     width: 30%;
     height: 300px;
-    border: .1px solid grey;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -2px 3px 35px -9px rgba(165, 164, 164, 0.75);
 }
 
 .main-side-nav > h4, p, button {
