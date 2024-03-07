@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Doctor Profile Page</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAekMU8f7NuGPfelhp5dKloQd4idyyj6nY&callback=initMap"
+    async defer></script>
     <link rel="stylesheet" href="index.css">
     <script src="./index.js"></script>
 </head>
@@ -130,7 +132,7 @@
                     <div class="location">
                         <h2>Locations</h2>
                         <div class="location-details flex">
-                            <div class="map"></div>
+                            <div id="map"></div>
                             <div class="address">
                                 <p class="number"> 1 </p>
                                 <p>2605 West Atlantic Avenue,</p>
@@ -240,7 +242,5 @@
             <hr>
         </footer>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAekMU8f7NuGPfelhp5dKloQd4idyyj6nY&callback=initMap"
-    async defer></script>
 </body>
 </html>

@@ -206,7 +206,7 @@ li {
     align-self: flex-start;
 }
 
-.map {
+#map {
     height: 100%;
     width: 50%;
 }
